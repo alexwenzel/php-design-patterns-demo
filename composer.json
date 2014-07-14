@@ -1,0 +1,20 @@
+{
+    "name": "alexwenzel/php-design-patterns-demo",
+    "description": "Examples and tests with php design patterns",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Alexander Wenzel",
+            "email": "alexander.wenzel@scim.de"
+        }
+    ],
+    "minimum-stability": "dev",
+    "require": {
+        "phpunit/phpunit": "4.2.*@dev"
+    },
+    "autoload": {
+        "classmap": [
+            "src/"
+        ]
+    }
+}
